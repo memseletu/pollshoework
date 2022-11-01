@@ -9,7 +9,7 @@ public class Options {
     @Column(name = "OPTION_ID")
     private Long id;
 
-    @Column(name = "OPTION_ID")
+    @Column(name = "OPTION_VALUE")
     private String value;
 
 
