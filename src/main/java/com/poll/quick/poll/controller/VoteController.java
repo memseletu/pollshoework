@@ -30,9 +30,4 @@ public class VoteController {
         return voteRepository. findByPoll(pollId);
     }
 
-//    @RequestMapping(value="/polls/{pollId}", method=RequestMethod.GET)
-//    public ResponseEntity<?> getPoll(@PathVariable Long pollId) {
-//        Poll p = pollRepository.findOne(pollId);
-//        if(p == null) {
-//            throw new ResourceNotFoundException("Poll with id " + pollId + " not found");
 }

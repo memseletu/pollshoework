@@ -1,4 +1,4 @@
-package dtos;
+package com.poll.quick.poll.dtos;
 
 import java.util.Collection;
 
@@ -21,5 +21,13 @@ public class VoteResult {
 
     public void setResults(Collection<OptionCount> results) {
         this.results = results;
+    }
+
+    @Override
+    public String toString() {
+        return "VoteResult{" +
+                "totalVotes=" + totalVotes +
+                ", results=" + results +
+                '}';
     }
 }

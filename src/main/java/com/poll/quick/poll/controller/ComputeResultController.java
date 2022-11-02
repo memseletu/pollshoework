@@ -2,8 +2,8 @@ package com.poll.quick.poll.controller;
 
 import com.poll.quick.poll.Repository.VoteRepository;
 import com.poll.quick.poll.model.Vote;
-import dtos.OptionCount;
-import dtos.VoteResult;
+import com.poll.quick.poll.dtos.OptionCount;
+import com.poll.quick.poll.dtos.VoteResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

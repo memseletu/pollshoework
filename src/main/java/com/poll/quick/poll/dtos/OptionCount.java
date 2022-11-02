@@ -1,4 +1,4 @@
-package dtos;
+package com.poll.quick.poll.dtos;
 
 public class OptionCount {
     private Long optionId;
@@ -18,6 +18,14 @@ public class OptionCount {
 
     public void setCount(int count) {
         this.count = count;
+    }
+
+    @Override
+    public String toString() {
+        return "OptionCount{" +
+                "optionId=" + optionId +
+                ", count=" + count +
+                '}';
     }
 }
 
